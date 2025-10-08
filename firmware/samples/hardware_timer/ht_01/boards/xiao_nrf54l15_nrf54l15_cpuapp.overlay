@@ -1,0 +1,4 @@
+&timer20{
+    compatible = "nordic,nrf-timer";
+    status = "okay";
+};
