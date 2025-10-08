@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "firmware"
+		}
+	],
+	"settings": {
+		"nrf-connect.applications": [
+			"${workspaceFolder}/samples/led/blink",
+			"${workspaceFolder}/samples/switch/sw_01",
+			"${workspaceFolder}/samples/interrupt/isr_01",
+			"${workspaceFolder}/samples/kernel_timer/kt_01",
+			"${workspaceFolder}/samples/hardware_timer/ht_01",
+			"${workspaceFolder}/samples/i2c/i2c_01"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+LED:
+    1. blink : led blink project with 100ms cpu delay.
+
+Switch:
+    1. sw_01: turn on led on switch press and turn off on switch release
+
+Interrupt:
+    1. isr_01: toggle led on every switch
+
+Kernel timer:
+    1. kt_01: toggle led with 500 ms kernel timer delay
+
+Hardware timer:
+    1.ht_01: toggle led with 500 ms hardware timer delay
+
+I2C:
+    1. i2c_01: scan i2c devices
