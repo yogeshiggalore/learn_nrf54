@@ -15,7 +15,8 @@
 			"${workspaceFolder}/samples/printk/printk_01",
 			"${workspaceFolder}/samples/printk/printk_02",
 			"${workspaceFolder}/samples/printk/printk_03",
-			"${workspaceFolder}/samples/uart/uart_01"
+			"${workspaceFolder}/samples/uart/uart_01",
+			"${workspaceFolder}/samples/uart/uart_02"
 		]
 	}
 }

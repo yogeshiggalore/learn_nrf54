@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "vl53l0x")(type "KiCad")(uri "/Users/yogesh/projects/temp/nrf54/learn_nrf54/hardware/lib/VL53L0X/VL53L0X.kicad_sym")(options "")(descr ""))
+  (lib (name "maxm86161")(type "KiCad")(uri "/Users/yogesh/projects/temp/nrf54/learn_nrf54/hardware/lib/MAXM86161EFD/2025-10-13_14-24-36.kicad_sym")(options "")(descr ""))
+)
