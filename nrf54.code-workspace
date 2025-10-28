@@ -16,7 +16,14 @@
 			"${workspaceFolder}/samples/printk/printk_02",
 			"${workspaceFolder}/samples/printk/printk_03",
 			"${workspaceFolder}/samples/uart/uart_01",
-			"${workspaceFolder}/samples/uart/uart_02"
-		]
+			"${workspaceFolder}/samples/uart/uart_02",
+			"${workspaceFolder}/samples/pwm/pwm_01",
+			"${workspaceFolder}/samples/ultrasonic_sensor/us_01",
+			"${workspaceFolder}/samples/threads/thread_01",
+			"${workspaceFolder}/samples/threads/thread_02"
+		],
+		"files.associations": {
+			"pwm.h": "c"
+		}
 	}
 }

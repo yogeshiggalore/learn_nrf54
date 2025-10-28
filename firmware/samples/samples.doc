@@ -24,3 +24,30 @@ I2C:
 UART:
     1. uart_01: turn on and turn off led using uart polling method
     2. uart_02: turn on and turn off led using uart interrupt method
+
+Ultrasonic sensor:
+    1. interface gpio based ultrasonic sensor HC-SR04.
+
+SPI:
+    1.
+
+NeoPixel:
+    1.
+
+Threads:
+    1. thread_01: turn on and turn off led using static thread creation method
+    2. thread_02: turn on and turn off led using dynamic thread creation method
+    
+Queues:
+
+Timers:
+
+Semaphore:
+
+Mailbox:
+
+Mutex:
+
+Workqueue:
+
+ZBUS:
