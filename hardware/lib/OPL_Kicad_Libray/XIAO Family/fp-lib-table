@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ym_xiao_nrf54l15")(type "KiCad")(uri "/Users/yogesh/projects/temp/nrf54/learn_nrf54/hardware/lib/xiao_nrf54l14/ym_xiao_nrf54l15.pretty")(options "")(descr ""))
+)

@@ -11,7 +11,19 @@
 			"${workspaceFolder}/samples/interrupt/isr_01",
 			"${workspaceFolder}/samples/kernel_timer/kt_01",
 			"${workspaceFolder}/samples/hardware_timer/ht_01",
-			"${workspaceFolder}/samples/i2c/i2c_01"
-		]
+			"${workspaceFolder}/samples/i2c/i2c_01",
+			"${workspaceFolder}/samples/printk/printk_01",
+			"${workspaceFolder}/samples/printk/printk_02",
+			"${workspaceFolder}/samples/printk/printk_03",
+			"${workspaceFolder}/samples/uart/uart_01",
+			"${workspaceFolder}/samples/uart/uart_02",
+			"${workspaceFolder}/samples/pwm/pwm_01",
+			"${workspaceFolder}/samples/ultrasonic_sensor/us_01",
+			"${workspaceFolder}/samples/threads/thread_01",
+			"${workspaceFolder}/samples/threads/thread_02"
+		],
+		"files.associations": {
+			"pwm.h": "c"
+		}
 	}
 }

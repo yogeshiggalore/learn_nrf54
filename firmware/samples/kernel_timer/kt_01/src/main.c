@@ -1,6 +1,7 @@
 /* include kernel and gpio device drivers */
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
+#include <zephyr/sys/printk.h>
 
 /* timer value 500 ms*/
 #define TIMER_VALUE 500
@@ -24,17 +25,30 @@ int main(void)
 	/* check for led0 device readiness */
 	if(!device_is_ready(led0.port))
 	{
+		printk("led0 device not ready\n");
 		return -1;
+	}
+	else
+	{
+		printk("led0 device ready\n");
 	}
 
 	/* configure led0 pin as output */
 	ret = gpio_pin_configure_dt(&led0, GPIO_OUTPUT_ACTIVE);
 	if (ret < 0)
 	{
+		printk("led0 configure failed\n");
 		return ret;
 	}
+	else
+	{
+		printk("led0 configured\n");
+	}
 
+	printk("led0 on\n");
 	gpio_pin_set_dt(&led0, true);
+
+	printk("initializing kernel timer\n");
 
 	/* kernel timer init */
 	k_timer_init(&led_timer, led_timer_expired, led_timer_stop);
@@ -49,6 +63,7 @@ void led_timer_expired(struct k_timer *timer)
 {
 	/* toggle led0 pin */
 	gpio_pin_toggle_dt(&led0);
+	printk("led0 toggle\n");
 }
 
 void led_timer_stop(struct k_timer *timer)

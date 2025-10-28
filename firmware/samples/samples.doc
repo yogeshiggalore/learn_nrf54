@@ -7,6 +7,11 @@ Switch:
 Interrupt:
     1. isr_01: toggle led on every switch
 
+Printk:
+    1. printk_01: print message in uart on led toggle
+    2. printk_02: print number of time switch pressed
+    3. printk_03: print number of times switch press using interrupt service routine
+
 Kernel timer:
     1. kt_01: toggle led with 500 ms kernel timer delay
 
@@ -14,4 +19,35 @@ Hardware timer:
     1.ht_01: toggle led with 500 ms hardware timer delay
 
 I2C:
-    1. i2c_01: scan i2c devices
+    1. i2c_01: scan i2c devices and print scanned devices on terminal
+
+UART:
+    1. uart_01: turn on and turn off led using uart polling method
+    2. uart_02: turn on and turn off led using uart interrupt method
+
+Ultrasonic sensor:
+    1. interface gpio based ultrasonic sensor HC-SR04.
+
+SPI:
+    1.
+
+NeoPixel:
+    1.
+
+Threads:
+    1. thread_01: turn on and turn off led using static thread creation method
+    2. thread_02: turn on and turn off led using dynamic thread creation method
+    
+Queues:
+
+Timers:
+
+Semaphore:
+
+Mailbox:
+
+Mutex:
+
+Workqueue:
+
+ZBUS:
